@@ -8,6 +8,10 @@ body {
     background-color: #000000;
 }
 
+.container-geral {
+    min-width: 320px;
+}
+
 img {
     height: auto;
     width: 100%;
@@ -50,4 +54,16 @@ nav .button-menu {
     top: 20px;
     right: 20px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+    .content-header h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 384px) {
+    .content-header h1 {
+        font-size: 4em;
+    }
 }
